@@ -1,0 +1,2 @@
+
+"caffe_run2/caffe_bin2.exe" train --solver=proto/baseline/solver_DenseNet_121.prototxt --gpu=all --snapshot=proto/baseline/snapshot/DenseNet_121_iter_150000.solverstate --log_name=DenseNet_121 --log_dirs=proto/baseline/snapshot/log
